@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Ali ttest!!"
+echo "This script has been made by Mr_Blaack!!"
 
 read -rp "Do you want to continue? (Y/n): " consent
 
