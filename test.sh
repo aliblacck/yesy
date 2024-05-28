@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Mr_Blaack firsts project!!"
+echo "Ali test!!"
 
 read -rp "Do you want to continue? (Y/n): " consent
 
