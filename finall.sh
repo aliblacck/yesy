@@ -2,7 +2,7 @@
 
 echo "This script has been made by Mr_Blaack!!"
 
-read -rp "Do you want to continue? (Y/n): " consent
+read -rp "Do you want to continue iman koskesh? (Y/n): " consent
 
 case "$consent" in
     [Yy]* ) 
@@ -137,7 +137,7 @@ echo "Success! Now get ready for setup."
 while true; do
     echo "Enter the SERVICE PORT value (default 62050):"
     read -r service
-    service=${service:-62050}  
+    service=${service:-8810}  
     if [[ $service =~ ^[0-9]+$ ]] && [ $service -ge 1 ] && [ $service -le 65535 ]; then
         break 
     else
@@ -149,7 +149,7 @@ done
 while true; do
     echo "Enter the XRAY API PORT value (default 62051):"
     read -r api
-    api=${api:-62051}
+    api=${api:-8811}
     if [[ $api =~ ^[0-9]+$ ]] && [ $api -ge 1 ] && [ $api -le 65535 ]; then
         break  
     else
